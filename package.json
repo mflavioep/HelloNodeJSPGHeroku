@@ -1,0 +1,29 @@
+{
+  "name": "HelloNodeJSPGHeroku",
+  "version": "1.0.0",
+  "description": "Teste de integração do NodeJS com PostgreSQL e deploy na nuvem Heroku.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mflavioep/HelloNodeJSPGHeroku.git"
+  },
+  "keywords": [],
+  "author": "Marcos Flavio",
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "bugs": {
+    "url": "https://github.com/mflavioep/HelloNodeJSPGHeroku/issues"
+  },
+  "homepage": "https://github.com/mflavioep/HelloNodeJSPGHeroku#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  }
+}
