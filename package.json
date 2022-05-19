@@ -7,10 +7,6 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mflavioep/HelloNodeJSPGHeroku.git"
-  },
   "keywords": [],
   "author": "Marcos Flavio",
   "license": "MIT",
